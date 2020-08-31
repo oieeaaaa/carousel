@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ASSETS-->
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!--JS-->
+    <script src="./main.js"></script>
+
+    <title>Carousel</title>
+  </head>
+  <body>
+    <section class="carousel">
+      <div class="container">
+
+        <!--HEADING-->
+        <h2 class="carousel__title">
+          Hear from real patients
+        </h2>
+
+        <!--CAROUSEL-->
+        <div class="carousel-container">
+
+          <!--QUOTE-->
+          <div class="carousel__quote">
+            <svg width="50" height="44" viewBox="0 0 50 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.35522 44C0.451741 38.4584 0 33.471 0 29.0378C0 18.9891 3.76267 10.1252 5.49526 7.7661C7.22785 5.40698 11.5745 0 21.7387 0V12.3023C20.0823 12.3023 18.6518 12.4131 17.4471 12.6348C16.0919 12.8564 15.1131 13.2259 14.5108 13.7431C13.6073 14.4081 13.005 14.9622 12.7038 15.4055C12.2521 15.9228 11.9133 16.7355 11.6874 17.8438L11.2357 20.7254V24.1612H21.6257V44H1.35522Z" fill="url(#paint0_linear)"/>
+              <path d="M29.6166 44C28.7131 38.4584 28.2613 33.471 28.2613 29.0378C28.2613 18.9891 32.024 10.1252 33.7566 7.7661C35.4892 5.40698 39.8358 0 50 0V12.3023C48.3436 12.3023 46.9131 12.4131 45.7085 12.6348C44.3532 12.8564 43.3745 13.2259 42.7721 13.7431C41.8687 14.4081 41.2663 14.9622 40.9652 15.4055C40.5134 15.9228 40.1746 16.7355 39.9488 17.8438L39.497 20.7254V24.1612H49.8871V44H29.6166Z" fill="url(#paint1_linear)"/>
+              <defs>
+              <linearGradient id="paint0_linear" x1="57.1181" y1="-8.86463e-06" x2="-27.9687" y2="30.1585" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F93549"/>
+              <stop offset="1" stop-color="#EB3296"/>
+              </linearGradient>
+              <linearGradient id="paint1_linear" x1="57.1181" y1="-8.86463e-06" x2="-27.9687" y2="30.1585" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F93549"/>
+              <stop offset="1" stop-color="#EB3296"/>
+              </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <!--LIST-->
+          <ul class="carousel-list">
+
+            <!--LIST ITEM 1-->
+            <li class="carousel-list__item">
+              <h2 class="carousel-list__item-title">
+                Maecenas in turpis non dui tincidunt lobortis. Integer massa
+                massa, vehicula tincidunt nunc quis, tempus gravida augue.
+                Praesent eget pulvinar purus.
+              </h2>
+              <p class="carousel-list__item-subtext">
+              Dylan Nixon
+              </p>
+              <p class="carousel-list__item-subtext --small">
+              57 years old, Public Housing Manager
+              </p>
+            </li>
+
+            <!--LIST ITEM 2-->
+            <li class="carousel-list__item">
+              <h2 class="carousel-list__item-title">
+                Quia voluptatem aliquam sint quis qui quibusdam. Ut cumque
+                itaque enim accusantium. Porro at ad neque.
+              </h2>
+              <p class="carousel-list__item-subtext">
+              Jennifer Lawrence
+              </p>
+              <p class="carousel-list__item-subtext --small">
+              44 years old, Accountant
+              </p>
+            </li>
+
+            <!--LIST ITEM 3-->
+            <li class="carousel-list__item">
+              <h2 class="carousel-list__item-title">
+                Sed ut quisquam reprehenderit quidem ipsam. Ea porro illum et
+                est in omnis. Quia eos quasi voluptatibus esse. Voluptatum ut
+                sint et at provident.
+              </h2>
+              <p class="carousel-list__item-subtext">
+              Joe Lee
+              </p>
+              <p class="carousel-list__item-subtext --small">
+              38 years old, Software Developer
+              </p>
+            </li>
+          </ul>
+
+          <!--CONTROLS-->
+          <div class="carousel-controls">
+
+            <!--PREV-->
+            <button class="carousel__prev">
+              <svg width="53" height="45" viewBox="0 0 53 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.0294 43.3049L52.1213 24.213C53.2929 23.0415 53.2929 21.142 52.1213 19.9704L33.0294 0.878506C31.8579 -0.293068 29.9584 -0.293068 28.7868 0.878506C27.6152 2.05008 27.6152 3.94957 28.7868 5.12115L42.7574 19.0917L0 19.0917L0 25.0917L42.7574 25.0917L28.7868 39.0623C27.6152 40.2338 27.6152 42.1333 28.7868 43.3049C29.9584 44.4765 31.8579 44.4765 33.0294 43.3049Z" fill="url(#paint0_linear)"/>
+                <defs>
+                <linearGradient id="paint0_linear" x1="60.5451" y1="44.1836" x2="-28.511" y2="10.8634" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F93549"/>
+                <stop offset="1" stop-color="#EB3296"/>
+                </linearGradient>
+                </defs>
+              </svg>
+            </button>
+
+            <!--NEXT-->
+            <button class="carousel__next">
+              <svg width="53" height="45" viewBox="0 0 53 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.0294 43.3049L52.1213 24.213C53.2929 23.0415 53.2929 21.142 52.1213 19.9704L33.0294 0.878506C31.8579 -0.293068 29.9584 -0.293068 28.7868 0.878506C27.6152 2.05008 27.6152 3.94957 28.7868 5.12115L42.7574 19.0917L0 19.0917L0 25.0917L42.7574 25.0917L28.7868 39.0623C27.6152 40.2338 27.6152 42.1333 28.7868 43.3049C29.9584 44.4765 31.8579 44.4765 33.0294 43.3049Z" fill="url(#paint0_linear)"/>
+                <defs>
+                <linearGradient id="paint0_linear" x1="60.5451" y1="44.1836" x2="-28.511" y2="10.8634" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#F93549"/>
+                <stop offset="1" stop-color="#EB3296"/>
+                </linearGradient>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
